@@ -1,0 +1,30 @@
+$color-white: #fff;
+$color-black: #000;
+
+$color-light-gray: rgba(203, 203, 203, 0.4);
+$color-medium-gray: rgba(152, 151, 151, 0.6);
+$color-dark-gray: rgba(85, 84, 84, 0.8);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+};
+
+body {
+    color: $color-dark-gray;
+    font-size: 17px;
+    line-height: 1.7;
+    font-family: 'Courier New', Courier, monospace;
+};
+
+#canvas1 {
+    position: absolute;
+    border: 3px solid $color-black;
+    background-color: $color-black;
+    height: 700px;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
